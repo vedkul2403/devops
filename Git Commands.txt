@@ -1,0 +1,22 @@
+  284  git checkout dev
+  285  echo "dev branch" >> second 
+  286  git status
+  287  git commit -a -m "dev branch comit"
+  288  echo "dev branch" >> third 
+  289  git commit -a -m "dev branch comit 2"
+  290  git log
+  291  git checkout master
+  292  git log
+  293  ll
+  294  cat second 
+  295  git checkout dev
+  296  ll
+  297  cat second 
+  298  git merge -h
+  299  git merge master
+  300  git checkout master
+  301  git status
+  302  git merge dev
+  303  git log
+  304  git branch
+  305  git branch -d dev
